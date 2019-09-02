@@ -1,10 +1,36 @@
 /*-----------------General Layout-----------------*/
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
 main{
     height: 100%;
+    width: 100%;
+    padding: 0 !important;
 }
+
+footer{
+    height: 34%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*-----------------Header-----------------*/
 
 header{
     height: 66%;
+}
+
+.carousel {
+    padding: 0;
+}
+
+.carousel-indicators {
+    margin: 0;
 }
 
 #carou-1 {
@@ -26,6 +52,8 @@ header{
     background-position: center;
     background-size: cover;
     height: 400px;
+    vertical-align: middle;
+    border-style: none;
 }
 
 #carou-4 {
@@ -54,17 +82,49 @@ header{
     height: 400px;
 }
 
-.carousel-item figure h2,p {
+#carou-1, #carou-2, #carou-3, #carou-4, #carou-5, #carou-6, #carou-7 {
+    height: 400px;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out
+}
+img {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+@media all and (min-width: 750px) {
+    #carou-1, #carou-2, #carou-3, #carou-4, #carou-5, #carou-6, #carou-7 {
+        height: 550px;
+    }
+}
+.carousel-item figure {
     text-align: center;
     color: white;
 }
-footer{
-    height: 34%;
-    text-align: center;
-}
-
-/*-----------------Header-----------------*/
 
 
 
 /*-----------------Footer-----------------*/
+
+.nav-bar {
+    padding: 0;
+    margin: 0;
+}
+
+#nav-item-1 {
+    background-color: #81d2c7;
+}
+
+#nav-item-2 {
+    background-color: #b5bad0;
+}
+
+#nav-item-3 {
+    background-color: #7389ae;
+}
+
+#nav-item-4 {
+    background-color: #416788;
+}
