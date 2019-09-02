@@ -1,0 +1,70 @@
+/*-----------------General Layout-----------------*/
+main{
+    height: 100%;
+}
+
+header{
+    height: 66%;
+}
+
+#carou-1 {
+    background-image: url(images/climate-change.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+#carou-2 {
+    background-image: url(images/coral.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+#carou-3 {
+    background-image: url(images/biodiversity.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+#carou-4 {
+    background-image: url(images/plastic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+#carou-5 {
+    background-image: url(images/manufacture.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+#carou-6 {
+    background-image: url(images/deforest.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+#carou-7 {
+    background-image: url(images/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.carousel-item figure h2,p {
+    text-align: center;
+    color: white;
+}
+footer{
+    height: 34%;
+    text-align: center;
+}
+
+/*-----------------Header-----------------*/
+
+
+
+/*-----------------Footer-----------------*/
