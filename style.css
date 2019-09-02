@@ -1,32 +1,47 @@
 /*-----------------General Layout-----------------*/
 html{
-    width: 100%;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 body{
-    width: 100%;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 main{
-    height: 100%;
-    width: 100%;
+    height: 66%;
+    width: 100% !important;
     padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
 }
 
-footer{
-    height: 34%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+header{
+    height: 66%;
     width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+footer{
+    height: 25%;
+    text-align: center;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute;
 }
 
 /*-----------------Header-----------------*/
 
-header{
-    height: 66%;
-}
+
 
 .carousel {
     padding: 0;
+}
+
+.carousel.slide {
+    width: 100%;
 }
 
 .carousel-indicators {
@@ -104,27 +119,31 @@ img {
     color: white;
 }
 
-
+#carouselExampleCaptions {
+    width: 100%;
+}
 
 /*-----------------Footer-----------------*/
 
-.nav-bar {
-    padding: 0;
-    margin: 0;
-}
-
 #nav-item-1 {
-    background-color: #81d2c7;
+    background-color: #0eb1d2;
 }
 
 #nav-item-2 {
-    background-color: #b5bad0;
+    background-color: #987284;
 }
 
 #nav-item-3 {
-    background-color: #7389ae;
+    background-color: #81b29a;
 }
 
 #nav-item-4 {
-    background-color: #416788;
+    background-color: #c8c2ae;
+}
+
+.nav-all {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
