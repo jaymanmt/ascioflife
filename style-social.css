@@ -1,0 +1,79 @@
+/*-----------------General Layout-----------------*/
+html{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+main{
+    height: 66%;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+
+header{
+    height: 66%;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+footer{
+    height: 25%;
+    text-align: center;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute;
+}
+
+/*-----------------Header-----------------*/
+
+
+
+/*-----------------Footer-----------------*/
+
+#nav-item-1 {
+    background-color: #0eb1d2;
+}
+
+#nav-item-2 {
+    background-color: #987284;
+}
+
+#nav-item-3 {
+    background-color: #81b29a;
+}
+
+#nav-item-4 {
+    background-color: #c8c2ae;
+}
+
+#nav-item-1.hvr-ripple-out::before {
+    border: rgba(14, 177, 210, 0.9) solid 6px !important;
+}
+
+#nav-item-2.hvr-ripple-out::before {
+    border: rgba(152, 114, 132, 0.9) solid 6px !important;
+}
+
+#nav-item-3.hvr-ripple-out::before {
+    border: rgba(129, 178, 154, 0.9) solid 6px !important;
+}
+
+#nav-item-4.hvr-ripple-out::before {
+    border: rgba(200, 194, 174, 0.9) solid 6px !important;
+}
+
+.nav-all {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.nav-all h5 {
+    text-decoration: underline;
+}
