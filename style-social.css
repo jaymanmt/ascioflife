@@ -82,7 +82,7 @@ footer{
 
 main {
     background-image: url(images/timber.jpg);
-    background-position: bottom;
+    background-position: left;
     background-size: cover;
     height: 100%;
     position: relative;
