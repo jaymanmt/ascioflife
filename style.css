@@ -118,6 +118,11 @@ img {
     text-align: center;
     color: white;
 }
+.carousel-item {
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 3em;
+    text-shadow: 4px 4px 8px black;
+}
 
 #carouselExampleCaptions {
     width: 100%;
@@ -141,9 +146,26 @@ img {
     background-color: #c8c2ae;
 }
 
+#nav-item-1.hvr-ripple-out::before {
+    border: rgba(14, 177, 210, 0.9) solid 6px !important;
+}
+
+#nav-item-2.hvr-ripple-out::before {
+    border: rgba(152, 114, 132, 0.9) solid 6px !important;
+}
+
+#nav-item-3.hvr-ripple-out::before {
+    border: rgba(129, 178, 154, 0.9) solid 6px !important;
+}
+
+#nav-item-4.hvr-ripple-out::before {
+    border: rgba(200, 194, 174, 0.9) solid 6px !important;
+}
+
 .nav-all {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.nav-all h5 {
+    text-decoration: underline;
 }
