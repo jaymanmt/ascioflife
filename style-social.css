@@ -6,11 +6,14 @@ html{
 }
 body{
     width: 100% !important;
+    height: 75%;
     padding: 0 !important;
     margin: 0 !important;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 main{
-    height: 66%;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -18,7 +21,7 @@ main{
 }
 
 header{
-    height: 66%;
+    min-height: 450px;
     width: 100%;
     padding: 0 !important;
     margin: 0 !important;
@@ -29,12 +32,88 @@ footer{
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    margin-bottom: 0 !important;
     position: absolute;
+    vertical-align: bottom !important;
 }
+
+/*-----------------Home Icon-----------------*/
+
+#home-icon{
+    color: black;
+    font-size: 1.5em;
+    position: fixed;
+    top: 0.1em;
+    right: 0.5em;
+    z-index: 1;
+    
+}
+
+/*-----------------Social Icon-----------------*/
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icons a {
+    padding: 1em;
+}
+
+.social-icons a i{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    color: black;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 100px;
+    margin-top: 60px;
+}
+
+.social-icons a i:hover {
+    background-color: #a3d4d1;
+}
+
 
 /*-----------------Header-----------------*/
 
+main {
+    background-image: url(images/timber.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
 
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 3em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-control{
+    background-color: #a3d4d1 !important;
+    letter-spacing: .1em;
+    box-shadow: grey 2px 2px 5px;
+}
+
+#send-deco{
+    width: 6em;
+    transition-property: background-color, border-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    -moz-transition-property: background-color, border-color;
+    -webkit-transition-property: background-color, border-color;
+}
+#send-deco:hover{
+    background-color: #48a9a3 !important;
+}
 
 /*-----------------Footer-----------------*/
 
