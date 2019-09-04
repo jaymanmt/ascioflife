@@ -18,28 +18,9 @@ main{
     padding: 0 !important;
     margin: 0 !important;
     position: relative;
-}
-
-header{
-    min-height: 300px;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-bottom: double;
-    border-width: 3px;
-    border-color: black;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 1px;
-}
-footer{
-    height: 25%;
-    text-align: center;
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    margin-bottom: 0 !important;
-    position: absolute;
-    vertical-align: bottom !important;
+    line-height: 28px;
 }
 
 /*-----------------Home Icon-----------------*/
@@ -62,6 +43,7 @@ footer{
     position: fixed;
     right:-3.4em;
     top: 50px;
+    z-index: 1;
 }
 .nav-side-pane a {
     text-align: left;
@@ -117,53 +99,48 @@ footer{
     text-decoration: underline;
 }
 
+/*-----------------Animations-----------------*/
+
+
+
 
 /*-----------------Headers/List-----------------*/
 
-main {
-    height: 100%;
-    position: relative;
+#chapter-1 {
+    background-color: #eaeaea;
+    border-bottom: double;
+    border-width: 3px;
+    border-color: black;
 }
 
-.list-unstyled {
-    margin:0;
-}
-
-.list-unstyled h1 {
-    padding: .2em;
+#chapter-1 h1{
+    text-align: center;
     font-family: 'Cabin Sketch', sans-serif;
 }
 
-#chapter-1 {
-    background-color: #eaeaea;
+.topic-hero {
+    border-radius: 10px;
 }
 
-#chapter-2 {
-    background-color: #9fa2b2;
-    color: #e9e6ff;
-}
-.media-body {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 5px;
+#image-contain {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.media-body h5 {
+#sub-head {
+    padding-left: 20px;
+}
+
+#sub-head h4 {
     color: darkseagreen;
     text-decoration: underline;
 }
 
-.media-body a {
-    text-decoration: none;
-}
-
-.media {
-    padding: 10px;
+.sub-content {
     padding-right: 50px;
-}
-
-.media img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    padding-left: 20px;
+    border-bottom: double;
+    border-width: 3px;
+    border-color: black;
 }
