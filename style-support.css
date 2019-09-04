@@ -46,7 +46,6 @@ footer{
     top: 0.1em;
     right: 0.5em;
     z-index: 1;
-    
 }
 
 /*-----------------Social Icon-----------------*/
@@ -104,7 +103,7 @@ main {
 /*-----------------Footer-----------------*/
 
 #nav-item-1 {
-    background-color: #0eb1d2;
+    background-color: #0da1bf;
 }
 
 #nav-item-2 {
@@ -120,7 +119,7 @@ main {
 }
 
 #nav-item-1.hvr-ripple-out::before {
-    border: rgba(14, 177, 210, 0.9) solid 6px !important;
+    border: rgba(13, 161, 191, 0.9) solid 6px !important;
 }
 
 #nav-item-2.hvr-ripple-out::before {
