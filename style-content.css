@@ -103,7 +103,6 @@ footer{
 }
 
 .nav-all {
-    
     font-family: 'Roboto Slab', sans-serif;
     transition-property: right;
     transition-duration: 2s;
@@ -111,6 +110,7 @@ footer{
 
 .nav-all:hover {
     right: 3.4em;
+    z-index: 1;
 }
 
 .nav-all h5 {
