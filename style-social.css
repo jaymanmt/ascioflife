@@ -18,16 +18,27 @@ main{
     padding: 0 !important;
     margin: 0 !important;
     position: relative;
+    background-image: url(images/timber.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    position: relative;
 }
 
 header{
-    min-height: 450px;
+    min-height: 501px;
     width: 100%;
     padding: 0 !important;
     margin: 0 !important;
 }
+
+@media all and (min-width: 750px) {
+    header {
+        min-height: 900px;
+    }
+}
 footer{
-    height: 25%;
+    min-height: 167px;
     text-align: center;
     width: 100% !important;
     padding: 0 !important;
@@ -79,14 +90,6 @@ footer{
 
 
 /*-----------------Header-----------------*/
-
-main {
-    background-image: url(images/timber.jpg);
-    background-position: left;
-    background-size: cover;
-    height: 100%;
-    position: relative;
-}
 
 .contact-form {
     background-color: rgba(0, 0, 0, 0.3);
