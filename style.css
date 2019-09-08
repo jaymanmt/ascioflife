@@ -10,7 +10,6 @@ body{
     margin: 0 !important;
 }
 main{
-    height: 66%;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -18,10 +17,11 @@ main{
 }
 
 header{
-    height: 66%;
-    width: 100%;
+    height: 75%;
+    width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    min-height: 501px;
 }
 footer{
     height: 25%;
@@ -29,12 +29,15 @@ footer{
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    position: absolute;
+    min-height: 167px;
 }
 
 /*-----------------Header-----------------*/
 
-
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+}
 
 .carousel {
     padding: 0;
@@ -52,53 +55,55 @@ footer{
     background-image: url(images/climate-change.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
+    width: 100%;
 }
 
 #carou-2 {
     background-image: url(images/coral.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
+    width: 100%;
 }
 
 #carou-3 {
     background-image: url(images/biodiversity.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
     vertical-align: middle;
     border-style: none;
+    min-height: 501px;
 }
 
 #carou-4 {
     background-image: url(images/plastic.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
 }
 #carou-5 {
     background-image: url(images/manufacture.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
 }
 #carou-6 {
     background-image: url(images/deforest.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
 }
 
 #carou-7 {
     background-image: url(images/hero-1.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    min-height: 501px;
+
 }
 
 #carou-1, #carou-2, #carou-3, #carou-4, #carou-5, #carou-6, #carou-7 {
-    height: 400px;
     transition-property: height;
     transition-duration: 2s;
     transition-timing-function: ease-in-out
@@ -111,7 +116,7 @@ img {
 
 @media all and (min-width: 750px) {
     #carou-1, #carou-2, #carou-3, #carou-4, #carou-5, #carou-6, #carou-7 {
-        height: 550px;
+        min-height: 1000px;
     }
 }
 .carousel-item figure {
@@ -129,6 +134,7 @@ img {
 }
 
 /*-----------------Footer-----------------*/
+
 
 #nav-item-1 {
     background-color: #0da1bf;
