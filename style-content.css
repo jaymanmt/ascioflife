@@ -60,8 +60,6 @@ footer{
     flex-direction: column;
     width: 95px;
     position: fixed;
-    right:-3.4em;
-    top: 50px;
 }
 .nav-side-pane a {
     text-align: left;
