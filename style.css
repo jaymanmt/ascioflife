@@ -10,16 +10,37 @@ footer{
 
 
 /*-----------------Home Icon-----------------*/
-
+/* animation-name left out to create affect by adding it with jquery on a click event*/
 #home-icon{
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
     color: black;
-    font-size: 1.5em;
+    color: #e9164a;
+    font-size: 30px;
     position: fixed;
     top: 0.1em;
     right: 0.5em;
     z-index: 20;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
 }
 
+@keyframes alerter {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 /*-----------------Page-1-----------------*/
 
 .container-fluid {
@@ -159,12 +180,23 @@ footer{
 
 #myTabContent{
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);
     padding: 10px;
-    margin: 12%;
+    margin: 10%;
     border-radius: 15px;
     font-size: 1.3em;
 }
+
+.nav-item{
+    background-color: #a3d4d1;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin: 1px;
+}
+.nav-link{
+    color: black;
+}
+
 
 /*-----------------Page-3-----------------*/
 .list-unstyled {
@@ -247,9 +279,6 @@ footer{
     border: 1px black solid;
     border-radius: 100px;
     margin-top: 60px;
-}
-
-.social-icons a i:hover {
     background-color: #a3d4d1;
 }
 
